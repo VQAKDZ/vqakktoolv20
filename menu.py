@@ -63,7 +63,7 @@ import requests
 
 try:
     __check__ = requests.get(
-        'https://raw.githubusercontent.com/VQAKDZ/ktoolvqak20/main/sever.txt').text
+        'https://raw.githubusercontent.com/VQAKDZ/vqakktoolv20/main/offon.txt').text
 except:
     print('\033[1;39m Vui Lòng Kết Nối Mạng !')
     exit("")
