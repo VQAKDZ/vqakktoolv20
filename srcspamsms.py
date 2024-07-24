@@ -11,7 +11,7 @@ api_tds()
 api_like()
 api_camxuc()
 from concurrent.futures import ThreadPoolExecutor
-ban = """
+banner = """
 
 \033[1;39m        ██╗░░██╗░░░░░░████████╗░█████╗░░█████╗░██╗░░░░░
 \033[1;39m        ██║░██╔╝░░░░░░╚══██╔══╝██╔══██╗██╔══██╗██║░░░░░
