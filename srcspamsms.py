@@ -2,7 +2,7 @@ import os
 import time
 import re
 import sys
-from concurrent.futures import ThreadPoolExecutor
+
 # Define the banner text
 banner_text = """
 \033[1;39m        ██╗░░██╗░░░░░░████████╗░█████╗░░█████╗░██╗░░░░░
@@ -47,7 +47,6 @@ if __name__ == "__main__":
     if sdt == "0965403749":
         print("SỐ ADM SPAM CÁI GÌ :)) ")
         exit()
-
 
 threading = ThreadPoolExecutor(max_workers=int(100000))  
 def vayvnd(sdt):
