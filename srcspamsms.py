@@ -1,5 +1,15 @@
 import os
 import requests,os,time,re,json,uuid,random,sys
+api_fb()
+vLongzZ()
+vLongzZz()
+vanlongzZ()
+vanlongzZz()
+api_fb()
+api_cookie()
+api_tds()
+api_like()
+api_camxuc()
 from concurrent.futures import ThreadPoolExecutor
 ban = """
 
