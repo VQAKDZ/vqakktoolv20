@@ -1,45 +1,129 @@
 import os
 import requests,os,time,re,json,uuid,random,sys
+api_fb()
+vLongzZ()
+vLongzZz()
+vanlongzZ()
+vanlongzZz()
+api_fb()
+api_cookie()
+api_tds()
+api_like()
+api_camxuc()
 from concurrent.futures import ThreadPoolExecutor
-ban = """
-\033[1;39m        ██╗░░██╗░░░░░░████████╗░█████╗░░█████╗░██╗░░░░░
-\033[1;39m        ██║░██╔╝░░░░░░╚══██╔══╝██╔══██╗██╔══██╗██║░░░░░
-\033[1;39m        █████═╝░█████╗░░░██║░░░██║░░██║██║░░██║██║░░░░░
-  \033[1;39m      ██╔═██╗░╚════╝░░░██║░░░██║░░██║██║░░██║██║░░░░░
-\033[1;39m        ██║░╚██╗░░░░░░░░░██║░░░╚█████╔╝╚█████╔╝███████╗
-\033[1;39m        ╚═╝░░╚═╝░░░░░░░░░╚═╝░░░░╚════╝░╚════╝░╚══════╝
-  \033[1;39m             ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  \033[1;39m             ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-╔══════════════════════════════════════════════════════════╗
-║ ~[⟨⟩] ➩ ADMIN:       ANH KHOA                            ║
-║ ~[⟨⟩] ➩ FACEBOOK:    VƯƠNG QUỐC ANH KHOA                 ║
-║ ~[⟨⟩] ➩ YOUTUBE:     https://www.youtube.com/@anhkhoatool║
-║ ~[⟨⟩] ➩ ZALO:        0363161335                          ║
-╚══════════════════════════════════════════════════════════╝
-\033[1;34m= = = = = = = = = = = = = = = = = = = = = = = = = = = = =
-\033[1;35m ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  Lưu Ý:
-  • Lắp não trước khi sử dụng!!
-  • Để dừng tấn công bấm [ CTRL + c ] 2 lần
-  • Khi chạy tool máy sẽ có cảm giác lag !!!
-\033[1;31m ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+import requests,os,sys, time
+from time import strftime
+from random import choice, randint, shuffle
+from pystyle import Add, Center, Anime, Colors, Colorate, Write, System
+from os.path import isfile
+from bs4 import BeautifulSoup
+from datetime import datetime
+import re,requests,os,sys
+from time import sleep 
+from datetime import date
+import requests, random
+import requests
+import base64, json,os
+from datetime import date
+from datetime import datetime
+from time import sleep,strftime
+from bs4 import BeautifulSoup
+from datetime import datetime
+import re,requests,os,sys
+from time import sleep 
+from datetime import date
+import requests, random
+import uuid, re
+from pystyle import Write,Colors
+from bs4 import BeautifulSoup
+import socket
+from datetime import datetime
+from rich.table import Table as me
+from multiprocessing.pool import ThreadPool
+from bs4 import BeautifulSoup as parser
+from rich.console import Console as sol
+from bs4 import BeautifulSoup as sop
+from bs4 import BeautifulSoup
+from rich import print as kui
+from concurrent.futures import ThreadPoolExecutor as tred
+from rich.console import Group as gp
+from rich.panel import Panel as nel
+from rich import print as cetak
+import calendar
+from time import sleep as jeda
+from rich.markdown import Markdown as mark
+from rich.columns import Columns as col
+import os,sys
+ip = requests.post('https://api.proxyscrape.com/ip.php').text
+os.system('clear')
+#màu
+luc = "\033[1;32m"
+trang = "\033[1;37m"
+do = "\033[1;31m"
+vang = "\033[0;93m"
+hong = "\033[1;35m"
+xduong = "\033[1;34m"
+xnhac = "\033[1;36m"
+red='\u001b[31;1m'
+yellow='\u001b[33;1m'
+green='\u001b[32;1m'
+blue='\u001b[34;1m'
+tim='\033[1;35m'
+xanhlam='\033[1;36m'
+xam='\033[1;30m'
+black='\033[1;19m'
+#key tool
+now = datetime.now()
+thu = now.strftime("%A")
+ngay_hom_nay = now.strftime("%d")
+thang_nay = now.strftime("%m")
+nam_ = now.strftime("%Y")
+ #--------------------KEY---------------&&#
+import requests
+from time import strftime
 
-"""
-def banner():
-  os.system("clear")
-  for h in ban:
-    sys.stdout.write(h)
-    sys.stdout.flush()
-    time.sleep(0.0003)   
+
+import threading,base64
+import os,time,re,json,random
+from datetime import datetime
+from time import sleep,strftime
+import requests
+import os, sys
+try:
+  from faker import Faker
+  from requests import session
+  from colorama import Fore, Style
+  import requests, random, re
+  from random import randint
+  import requests,pystyle
+except:
+  os.system("pip install faker")
+  os.system("pip install requests")
+  os.system("pip install colorama")
+  os.system('pip install requests && pip install bs4 && pip install pystyle')
+  print('__Vui Lòng Chạy Lại Tool__')
+from pystyle import Add, Center, Anime, Colors, Colorate, Write, System
+#MÀU
+xnhac = "\033[1;36m"
+do = "\033[1;31m"
+luc = "\033[1;32m"
+vang = "\033[1;33m"
+xduong = "\033[1;34m"
+hong = "\033[1;35m"
+trang = "\033[1;39m"
+whiteb="\033[1;39m"
+red="\033[0;31m"
+redb="\033[1;31m"
+end='\033[0m'
 banner()
 amount = 5000
-sdt = input("[ + ] Nhập Số Điện Thoại Victim: ")
+sdt = input("[ + ] Số điện thoại spam : ")
 while not re.search("^(0?)(3[2-9]|5[6|8|9]|7[0|6-9]|8[0-6|8|9]|9[0-4|6-9])[0-9]{7}$",sdt):
-  print("⚜ Sai Định Dạng !!")
-  sdt = input("[ + ] Nhập Số Điện Thoại Victim: ")
-count = int(input("[ + ] Số Tin Nhắn / Call [ Nên Để 200 ]: "))
-if sdt == "0965403749":
-  print("SỐ ADM SPAM CÁI GÌ :)) ")
+  print("Số Điện Thoại Phải Đủ 10 Số !!")
+  sdt = input("[ + ] Phone NumBer : ")
+count = int(input("[ + ] Số lần spam : "))
+if sdt == "0363161335":
+  print("Spam Số Tao Con Mẹ Mày")
   exit()
 
 threading = ThreadPoolExecutor(max_workers=int(100000))  
